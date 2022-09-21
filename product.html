@@ -11,7 +11,6 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/boxicons.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
    <link rel="stylesheet" href="css/style.css">
 
     </head>
@@ -31,79 +30,128 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-capitalize ms-auto py-4 py-lg-0">
                 <li class="nav-item"><a class="nav-link" href="index.html">How to use</a></li>
-                <li class="nav-item"><a class="nav-link" href="#all_demos">Enroll for free</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">contact us</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://ilabtechnologies.com.ng/iLabLMS/login/index.php">Enroll for free</a></li>
+                <li class="nav-item"><a class="nav-link" href="Contact.html">contact us</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-        <main class="product-page">
+    <div class="mt-5 pt-5 pb-3 demo">
+        <h1 class="service-h1">Take Our Course</h1>
+        <div class="demo-container" id="blurDemo">
+            <div class="demo-col">
+                <div class="demo-feature">
+                    <img src="./img/demo_1.png" alt="" width="100%"> 
+                    <img src="./img/play.png" alt="" width="100%" class="play_btn" onclick="playVideo('https://www.ilabtechnologies.com.ng/Democourses/Emotionalintelligence/')">
+                </div>
+            </div>
+            <div class="demo-col">
+                <div class="demo-feature">
+                    <img src="./img/demo_2.png" alt="" width="100%"> 
+                    <img src="./img/play.png" alt="" class="play_btn" onclick="playVideo('https://ilabtechnologies.com.ng/Democourses/AdvertDemo/')">
+                </div>
+            </div>
+            <div class="demo-col">
+                <div class="demo-feature">
+                    <img src="./img/demo_3.png" alt="" width="100%"> 
+                    <img src="./img/play.png" alt="" class="play_btn" onclick="playVideo('https://ilabtechnologies.com.ng/Democourses/FSA/')">
+                </div>
+            </div>
+            <div class="demo-col">
+                <div class="demo-feature">
+                    <img src="./img/demo_4.png" alt="" width="100%"> 
+                    <img src="./img/play.png" alt="" class="play_btn" onclick="playVideo('https://ilabtechnologies.com.ng/Democourses/BOE/')">
+                </div>
+            </div>
+            <div class="demo-col">
+                <div class="demo-feature">
+                    <img src="./img/demo_5.png" alt="" width="100%"> 
+                    <img src="./img/play.png" alt="" class="play_btn" onclick="playVideo('https://ilabtechnologies.com.ng/Democourses/Tradefinance/')">
+                </div>
+            </div>
+            <div class="demo-col">
+                <div class="demo-feature">
+                    <img src="./img/demo_6.png" alt="" width="100%"> 
+                    <img src="./img/play.png" alt="" class="play_btn" onclick="playVideo('https://ilabtechnologies.com.ng/Democourses/Introductiontovideocourse/')">
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div class="video-player" id="video-player">
+        <iframe id="myVideoPlayer" src=" https://www.ilabtechnologies.com.ng/Democourses/Emotionalintelligence/" control autoplay width="500" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <img src="./img/close.png" alt="" class="close_btn" id="popUp" onclick="stopVideo()">
+    </div>
+    <div class="video-player" id="video-player">
+        <iframe id="myVideoPlayer" src=" https://ilabtechnologies.com.ng/Democourses/AdvertDemo/" control autoplay width="500" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <img src="./img/close.png" alt="" class="close_btn" id="popUp" onclick="stopVideo()">
+    </div>
+    <div class="video-player" id="video-player">
+        <iframe id="myVideoPlayer" src=" https://www.ilabtechnologies.com.ng/Democourses/FSA/" control autoplay width="500" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <img src="./img/close.png" alt="" class="close_btn" id="popUp" onclick="stopVideo()">
+    </div>
+    <div class="video-player" id="video-player">
+        <iframe id="myVideoPlayer" src=" https://www.ilabtechnologies.com.ng/Democourses/BOE/" control autoplay width="500" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <img src="./img/close.png" alt="" class="close_btn" id="popUp" onclick="stopVideo()">
+    </div>
+    <div class="video-player" id="video-player">
+        <iframe id="myVideoPlayer" src="https://ilabtechnologies.com.ng/Democourses/Tradefinance/" control autoplay width="500" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <img src="./img/close.png" alt="" class="close_btn" id="popUp" onclick="stopVideo()">
+    </div>
+    <div class="video-player" id="video-player">
+        <iframe id="myVideoPlayer" src=" https://ilabtechnologies.com.ng/Democourses/Introductiontovideocourse/" control autoplay width="500" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <img src="./img/close.png" alt="" class="close_btn" id="popUp" onclick="stopVideo()">
+    </div>    
 
-        <div class="product-page-container">
-            <h2 class="product-heading container">Get a eLearning template today and be your own e-Learning developer by creating your beautiful 
-                and engaging eLearning Courses. </h2>
-            <img src="./img/product-img.png" alt="">
-            
-        </div>
-        <div class="product-footer">
-            <div class="waves">
-                <div class="wave" id="wave1"></div>
-                <div class="wave" id="wave2"></div>
-                <div class="wave" id="wave3"></div>
-                <div class="wave" id="wave4"></div>
-            </div>    
-        </div>
-          <div class="curved-div middle">
-            <img src="./img/Group 1.png" alt="group 1" style="margin:0 auto 5rem">
-            <img src="./img/Group 2.png" alt="group 1" style="margin:5rem auto">
-            <img src="./img/Group 3.png" alt="group 1" style="margin:3rem auto 0rem ">
-          </div>
-          <div class="curved-div lower">
-            <img src="./img/wave (1).svg" alt="" width="100%">
-          </div>
-        </main>
-
-
-        <div class="demo-container">
-            <img src="./img/demo_1.png" alt="">
-            <img src="./img/demo_2.png" alt="">
-            <img src="./img/demo_3.png" alt="">
-            <img src="./img/demo_4.png" alt="">
-            <img src="./img/demo_5.png" alt="">
-            <img src="./img/demo_6.png" alt="">
-        </div>
       
-        <footer class="footer">
-            <div class="container">
-               <div class="footer-row">
-                  <div class="footer-col">
-                    <div><img src="./img/logo.png" alt="..." /></div>
-                     <p>We can be reached across all devices and platform.</p>
-                     <div class="social-links">
-                        <a href="#" class="mx-2"><i class="fab fa-facebook-f d-flex text-align-center"></i></a>
-                        <a href="#" class="mx-2"><i class="fab fa-twitter d-flex text-align-center"></i></a>
-                        <a href="#" class="mx-2"><i class="fab fa-instagram d-flex text-align-center"></i></a>
-                        <a href="#" class="mx-2"><i class="fab fa-linkedin-in d-flex text-align-center"></i></a>
-                        </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-col">
+                <div><img src="./img/logo.png" alt="..." /></div>
+                    <p>We can be reached across all devices and platform.</p>
+                    <div class="social-links">
+                        <a href="https://web.facebook.com/ilabtech1/?_rdc=4&_rdr" class="mx-2"><i class="fab fa-facebook-f d-flex text-align-center"></i></a>
+                        <a href="https://twitter.com/ilabtech_" class="mx-2"><i class="fab fa-twitter d-flex text-align-center"></i></a>
+                        <a href="https://www.instagram.com/ilab_technologies/" class="mx-2"><i class="fab fa-instagram d-flex text-align-center"></i></a>
+                        <a href="https://www.linkedin.com/company/78844949/admin/" class="mx-2"><i class="fab fa-linkedin-in d-flex text-align-center"></i></a>
                     </div>
-         
-                  <div class="footer-col">
-                     <p class="mt-lg-5">53, Ajoke Okunsanya street, Ago Palace way. Okota Lagos Nigeria.</p>
-                     <h4>(+234) 9038256792</h4>
-                     <h4>(+234) 8036824499</h4>
-                  </div>
-               </div>
+                </div>
+        
+                <div class="footer-col">
+                    <p class="mt-lg-5">53, Ajoke Okunsanya street, Ago Palace way. Okota Lagos Nigeria.</p>
+                    <h4>(+234) 9038256792</h4>
+                    <h4>(+234) 8036824499</h4>
+                </div>
             </div>
-            <div class="email-row">
-               <h3>subscribe to our newsletter</h3>
-               <div class="email-box">
-                  <i class="fa-regular fa-envelope"></i> <input class="tbox" type="email" name="" id="" placeholder="Enter your email address here">
-                  <button class="tbtn" type="button" name="button">subscribe Now</button>
-            </div>
-            </div>
-         </footer>
-
+        </div>
+        <div class="email-row">
+            <h3>Subscribe to our newsletter</h3>
+            <div class="email-box">
+                <i class="fa-regular fa-envelope"></i> <input class="tbox" type="email" name="" id="" placeholder="Enter your email address here">
+                <button class="tbtn" type="button" name="button">subscribe Now</button>
+             </div>
+        </div>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        let videoPlayer=document.getElementById("video-player");
+        let myVideoPlayer=document.getElementById("myVideoPlayer");
+        let blurDemo=document.getElementById("blurDemo");
+        let popUp=document.getElementById("popUp");
+
+        function playVideo(url){
+            console.log("This button is working")
+            myVideoPlayer.src=url;
+            videoPlayer.style.display="block"
+            blurDemo.classList.add('active')
+
+        }
+        function stopVideo(){
+            videoPlayer.style.display="none";
+            blurDemo.style.transition=0.5;
+            blurDemo.classList.remove('active');
+        }
+    </script>
     </body>
 </html>
